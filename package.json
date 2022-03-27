@@ -1,9 +1,19 @@
 {
   "name": "peer-dependencies",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "bin": {
     "peer-dependencies": "./index.js"
   },
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "peer-dependencies",
+    "list-peer-dependencies",
+    "helper",
+    "cli",
+    "list"
+  ],
   "description": "",
   "scripts": {
     "prepublishOnly": "npx tsc"
